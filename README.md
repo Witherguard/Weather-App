@@ -1,18 +1,35 @@
-👋 Hi, I’m Saad Hossain!
+# ZenWeather (VS Code + Vite)
 
-Welcome to my corner of the coding world! Here you'll find all the projects I've worked on, from small experiments to full-fledged apps. 🚀
-📬 Contact Me
+This repository is now set up as a standard React + TypeScript project that runs in VS Code with Vite.
 
-If you want to reach out or collab:
-Email: saadusa123@gmail.com
+## Quick start
 
-🛠️ My Projects:
-- Weather App
-  
-💡 Fun Facts About Me
-I love building apps and experimenting with code 🤓
-Always learning new tech and tools ⚡
-Coffee fuels my late-night coding ☕
-🌟 Let’s Connect!
+```bash
+npm install
+npm run dev
+```
 
-If you like my work, feel free to reach out! We can collaborate or just chat about code. 😎
+Then open the local URL printed by Vite (usually `http://localhost:5173`).
+
+## Project structure
+
+- `src/main.tsx` – app entry point
+- `src/App.tsx` – top-level UI state and layout
+- `src/components/*` – reusable weather UI components
+- `src/types.ts` – shared TypeScript types
+- `src/constants.ts` – mock weather data
+- `tailwind.config.js` – custom animation/theme config
+- `src/index.css` – Tailwind directives + custom glassmorphism styles
+
+## VS Code tips
+
+Install these extensions for best experience:
+- **ESLint**
+- **Tailwind CSS IntelliSense**
+- **TypeScript and JavaScript Language Features** (built in)
+
+You can launch from VS Code terminal with:
+
+```bash
+npm run dev
+```
